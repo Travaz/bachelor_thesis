@@ -1,4 +1,4 @@
-# BEMACS - Bachelor Thesis
+# BEMACS - Bachelor Thesis Draft
 This is the repository containing all the resources to complete my bachelor thesis.
 
 ## TILE: Credit risk: an assessment on loans and the benefits of blockchain infrastructures in the context of asymmetric information
@@ -10,7 +10,7 @@ This is the repository containing all the resources to complete my bachelor thes
     2.1.subtext
     2.2. subtext
 
-3 text
+3. text
 ...
 
 ### Description
