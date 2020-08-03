@@ -1,0 +1,29 @@
+PWD c:/Users/trava/OneDrive - Universit� Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_draft
+INPUT c:/texlive/2019/texmf.cnf
+INPUT c:/texlive/2019/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_draft/credit_risk.tex
+OUTPUT c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_draft/credit_risk.log
+INPUT c:/texlive/2019/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlive/2019/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlive/2019/texmf-dist/tex/latex/base/size12.clo
+INPUT c:/texlive/2019/texmf-dist/tex/latex/base/size12.clo
+INPUT c:/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+INPUT c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+INPUT c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_draft/credit_risk.aux
+INPUT c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_draft/credit_risk.aux
+OUTPUT c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_draft/credit_risk.aux
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+OUTPUT c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_draft/credit_risk.pdf
+INPUT c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_draft/credit_risk.aux
+INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
