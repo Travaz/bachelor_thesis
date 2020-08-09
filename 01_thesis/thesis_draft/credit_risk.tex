@@ -1,8 +1,12 @@
 \documentclass[a4paper,12pt]{article}
 \begin{document}
+
+    \newcounter{definition}[section]
+    \newenvironment{definition}[1][]{\refstepcounter{definition}\par\medskip
+        \noindent \textbf{Definition #1:} \rmfamily}{\medskip}
     
     % Some introduction
-    \title{An amazing thesis}
+    \title{Thesis}
     \author{Daniel Travaglia}
     \date{\today}
     \maketitle
@@ -16,16 +20,107 @@
     % Let's divide the document into sections (i.e. chapters)
     \section{A gentle introduction to credit risk}
 
-    \pagebreak
-    \section{Asymmetric Information in the credit market}    
+    To include in this section
+    \begin{enumerate}
+        \item What is it?
+        \item Give me real life examples
+        \item Why is it relevant and for who?
+        \item Counterparty credit risk
+    \end{enumerate}
+
+    % [TODO]
+    % - Increasing comp. power, data collection, and regulation as main drivers for credit risk modelling
+    % - 
+    As you might have already inferred from the title of this section, the aim here is to give an overview
+    of the topic that is at the hearth of this paper: credit risk. In order to so however, rather than jumping 
+    straight into formal definitions, which might create difficulties in grasping with the content, the reader 
+    will be first provided with real-life examples characterized by the presence of such risk. Moving on, some
+    formal definitions will be provided along with a description of the agents that usually take upon this risk 
+    and how they act to assess it and quantify it with the purpose of taking proper actions to mitigate it. Finally, there ..
+
+    \subsection[]{Introduction}
+            
+        To start off this section, let me provide you with a few examples of situations that occur on a daily basis, which
+        might however serve as a great starting point to understand the topic. 
+    
+        Imagine yourself receving a call from one of your friends that you have not heard for quite a while. 
+        You can hear from his voice that he is really upset, and apparently, the reason for this is that he has to pay a fine 
+        by the end of the day to avoid an additional charge, but he does not have the money to pay at the moment, 
+        due to huge expenses that he had to cover during that month and the fact that he still has not received his monthly salary. 
+        He then ask you, whether you would be kind enough to lend him the money, promising to repay you as soon as he receives his paid.
+        What would you do? Would you lend him the money? What if one of your colleague at work ask you the same thing? Would you do it in this case? 
+        Would it make a difference if it was someone you knew well? And if your colleague ask you funds for a pizza but he does not mention when and 
+        how is going to pay you back? 
+    
+        Usually, the type of questions that you ask yourself before getting into this type of agreements, which are also a simplified
+        version of what financial istitutions ask themselves before giving any type of credit, are the following: 
+
+        \begin{itemize}
+            \item Who is borrowing?
+            \item How much they are borrowing?
+            \item When I will get it back?
+            \item How much is there for me?
+        \end{itemize}
+
+        Going back to the last example, imagine your colleague telling you that he will pay you back the week after and in addition, he is willing
+        to take you out for lunch. In this case, he is paying you back more than what you lent him. Would you call this \textit{interest rate}? 
+        What if instead he gives you his watch to keep until he pays you back? This feels a much more safer lending, doesn't it? Indeed, the watch
+        in this case is called \textit{security}.
+
+        The procedure that has been just introduced is usually called "\textbf{credit analysis}", which formally can be defined as the process through
+        which the lender elaborates if he believes the counterparty is going to honor its obligations or not. This ultimately determine whether
+        the agent will enter in that contract or not, along with the relative risk associated with it, or more precisely, the \textbf{credit risk}.
+
+    \subsubsection{Credit risk}
+
+        Formally, credit risk can be defined as:
+        \begin{definition}[(Credit risk)]
+            the risk that a lender has to take into account due to the uncertainty related to the borrower failing to either repaying a loan or meet its obligations.
+        \end{definition}
+
+        In simple terms, this definition suggests that the lender should consider the possibility that a borrower will not be able to pay back the principal and the 
+        interest rate according to the initial contractual agreement, quantify it and based on the result, charge a coupon rate (i.e. interest rate) to protect
+        against this risk. 
+
+        % - how is this probability quantified?
+        % - bullshitta su dove possiamo trovare credit risk e provvedi a fare alcuni esempi
+        % - default vs. credit risk
+
+        
+
+    
+
+
+    % Old
+    % The aim of this section is to provide an overview of the core topic of this paper: credit risk.
+    % Being credit risk a vast and broad topic, which might result 
+    % Instead of jumping straight into the relevant definitions and keywords that characterize this world,
+    % the reader will be provided with examples concerning daily activities, with the hope that such provision
+    % serves as a way to make the reader aware of the relevance of this type of risk in one's life.
+
+    % Let me provide you with some examples: imagine yourself receiving a call from one of you colleague in a usual
+    % split 
     
     \pagebreak
     \section{Basel Regulatory Framework}
     
     \pagebreak
-    \section{Credit Risk Analysis:}
+    \section{Credit Risk Empirical Analysis}
+
+    \begin{enumerate}
+        \item 
+    \end{enumerate}
     
     \pagebreak
     \section{Blockchain and asymmetric information}
+
+    \pagebreak
+    \section{References}
+
+    \begin{enumerate}
+        \item Finance Unlocked (linK: )
+        \item Investopedia (link:)
+        \item Introduction to credit risk modelling (Christian Bluhm)
+    \end{enumerate}
 
 \end{document}
