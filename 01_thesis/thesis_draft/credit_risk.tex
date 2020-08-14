@@ -79,8 +79,18 @@
         \end{definition}
 
         In simple terms, this definition suggests that the lender should consider the possibility that a borrower will not be able to pay back the principal and the 
-        interest rate according to the initial contractual agreement, quantify it and based on the result, charge a coupon rate (i.e. interest rate) to protect
-        against this risk. 
+        interest rate according to the initial contractual agreement, he should quantify this probability and based on the result obtained, charge a coupon rate 
+        (i.e. interest rate) to protect against this risk. How is this probability estimated is going to be at the heart of the empirical analysis of this work and 
+        for this reason, the topic is introduced in later chapters. Ultimately, there are at least 3 additional points that is worth mentioning in the context of credit
+        risk: 
+        
+        \begin{enumerate}
+            \item \textbf{Credit risk in every financial transaction}: although it comes naturally to associate this type of risk for transactions that involves banks (e.g. mortgages, loans, credit cards, etc...), there is also presence of credit risk in transactions that occur between the companies and their clients (e.g. paying invoices, insurance coverage, etc..)  
+            \item \textbf{Risk assessment}: before granting new credit, as often it is the case in the business world, the bank undergo an assessment on the borrower that takes into consideration his credit history, the capabilities to repay back, the capital available, the loan's conditions and associated collateral. Such evaluation has the final goal of providing an accurate prior estimate of the credit risk. This will ultimately tell whether the client should get or not the obligations, with an increasing interest rate for those who are perceived as riskier.
+            \item \textbf{Credit risk vs. Market risk}: so far it was assumed the risk associated to the lending being purely driven by the borrower characteristics. Although the latters always have a relevant impact in the assessment, other factors enter in the overall evaluation. Most of them falls under the area of \textit{market risks factors} (such as FX rates, unemployment rates and so on), which are included also in what is known as the CCR (Counterparty Credit Risk) stress testing.
+            \item \textbf{CCR - Stress testing}:  
+        \end{enumerate}
+        
 
         % - how is this probability quantified?
         % - bullshitta su dove possiamo trovare credit risk e provvedi a fare alcuni esempi
@@ -103,7 +113,75 @@
     
     \pagebreak
     \section{Basel Regulatory Framework}
+
+    The needs for a more comprehensive and better approach to risk management, particularly for counterparty credit risk,
+    has emerged quite significantly after the financial crisis of 2007-2009. Since then, regulators have sharpened their 
+    frameworks and applied more stringent controls to the stability of financial istitutions, focusing also on hyphotetical 
+    scenarios. On this line of reasoning, this section provides an overview of how regulatory requirements in the context of counterparty credit
+    risk have evolved over time, presenting also reasons for which such rules have been introduced in the first place.
+
+    In the aftermath of the well-known and aformentioned financial crisis of the period 2007-2009, there has been an unprecedented
+    revision of the global framework regulating the financial sector, culminating in what is known today with the name of \textbf{Basel III} regulatory framework.
+    However, before reaching this result, the banking sector has experienced a relevant number of systemic crisis usually driven by various factors,
+    including the miscalculation of risk represented by inadequate capital levels to carry out their business. Each of this crisis brought some contribution 
+    and changes to the previous framework, adding up to the first version, which consisted of 30 pages, more than 1500 pages of guidelines relating to the 
+    supervision of daily banking activities. Although it might seem scary at first, the Basel III framework can actually be divided into 7 key modules that are
+    listed here:
+
+    \begin{enumerate}
+        \item \textbf{Minimum capital requirements}: refers to methodologies for the calculation of operational, market and credit risks
+        \item \textbf{RWA - Risk Weighted Assets}:
+        \item \textbf{Capital buffers}:
+        \item \textbf{Leverage}: 
+        \item \textbf{Liquidity}: refers to the amount of capital hold
+        \item \textbf{Supervision}: refers to the periodical capital assessments and supervisory interventions that financial istitutions agree to undertake
+        \item \textbf{Market discipline}: period disclosure of risk exposures by financial istitutions to enable much more informed decisions
+    \end{enumerate}
+
+    Why was the Basel Committee ever needed? In order to answer this question, we have to go back to 1970s, when the Herstatt Bank collapsed and was put under liquidation 
+    due to enormous trades on the foreign exchange market that did not go as planned. The license was withdrawn in the 1974, as losses have reached an amount equal to 10 times
+    the liquidity of the bank. However, there is more to the story: US counterparties engaging in multiple transactions with Hersatt Bank released "Deutschmark" in exchange of dollars.
+    These lenders never see their money, essentially because of time differences: US was still in morning trades when the bank was revoked its license. Although this is purely related to FX activities, 
+    and cosequently involves also FX and market risk, this event highlighted the necessity to create a central forum for banking supervision concerning matters related also to other type of risks, 
+    such as "credit risk". With the objective of enhancing the financial stability and quality of banking supervision, in 1974 multiple central banks gave raise to a centralized committee which later on 
+    took the name of "Basel Committee on Banking Supervision". The latter expanded quite significantly and as of now, it includes 45 central banks worldwide.
+
+    The need for a regulatory framework for risk management instead, takes us back to the 70s-80s period, when the surge in debt in the latin american countries combined with the raise of interest rates
+    in US and Europe led the way to a series of critical debt restructuring efforts for many countries worldwide. Hence, the critical needs for a more clear and comprehensive framework to bring overall 
+    stability in the banking system led the way for the Basel committee to issue guidelines on weighted approach to risk management. Such need was satisfied with the release of the Basel 1 framework in 1988, 
+    when for the first time in history, banks were required to weigh the capital they held against the credit risk they took from lending services. 
     
+    \subsection[]{Basel 1}
+    The first regulatory framework released by the Banking Committee was denominated "Basel 1". The latter introduced some relevant changes in the financial system:
+    
+        \begin{itemize}
+            \item Istitutions provide any type of lending services were required to classify assets into 5 different categories based on the risk they bear: from 0\% for most secured assets (e.g. cash) to 100\% for low-quality assets (e.g. private sector debt). Since then, such assets have been known with the name: "\textbf{RWA}" (risk-weighted assets).
+            \item Keep minimum level of capital against the total RWA. This was initially set at 8\%, equally spread between most absoring assets (e.g. equity, retained earnings) and the rest, with supplementary assets (e.g. financial instruments that are more difficult to liquidate). Such threshold was introduced to ensure that financial istitutions had enough standalone capabilities to absord potential losses resulting from defaulting clients.
+        \end{itemize}
+
+    Despite the major alterations, the first Basel Regulation presented some shortcomings mainly related to the duration of the service, the market risk and, most importantly, the counterparty risk. The complexity 
+    introduced by some financial products (Credit default swaps, Complex derivatives, etc..) was drastically incrementing the risk taken by financial istitutions, a situation that required further 
+    adjustments with the regulation and shined a light on the ever-increasing importance of accurate methodologies to assess exposures to risk. 
+     
+    \subsection[]{Basel 2}
+    Some of the aformentioned and much needed adjustments have been introduced in the second version of the Basel Framework, today known as: \textbf{Basel II}. Major changes are:
+
+        \begin{itemize}
+            \item Arrangments of multiple methods to better assess the minimum capital requirements to absorb potential credit losses 
+            \item The introduction of a new capital tier: the \textit{Tier-3 capital}. This was meant to cover also for market risk.
+        \end{itemize}
+
+    Despite the efforts to bring more stability to the financial environment, the paper required substantial time and effort before being released. After this event however, which took place in 2006,
+    most financial istitutions took full advantage of the subprime mortgages - lending money to low credit profile - thank to higher expected returns, but they also started increasing their leverage
+    taking full advantage of the favourable economic conditions after the financial crisis. These events were part of a much broader series of misfunctionality that served as key lessons for the Basel 
+    Committee, to bring substantial modification to the current framework and published the latest version as we know it today: The \textbf{Basel III},
+
+    \subsection[]{Basel 3}
+    The Basel III framework introduces a very large package of reforms that aims at further strengthen and prevent another financial crisis. Instead of listing the reforms brought and applied, we wish
+    to see how significant changes over this version of the framework have brought to the attention the ever-increasing need of being able to assess counterparty credit risk (?)
+
+... (leggere Karolina + Online) -> collegare a counterparty credit risk e a probability of default! -> next chapter!
+
     \pagebreak
     \section{Credit Risk Empirical Analysis}
 
@@ -119,8 +197,10 @@
 
     \begin{enumerate}
         \item Finance Unlocked (linK: )
-        \item Investopedia (link:)
+        \item Investopedia - Credit Risk (link:)
         \item Introduction to credit risk modelling (Christian Bluhm)
+        \item Investopedia - Capital tiers (link: https://www.investopedia.com/ask/answers/043015/what-difference-between-tier-1-capital-and-tier-2-capital.asp)
+        \item Investopedia - Capital buffers (link: https://www.investopedia.com/terms/c/capital-buffer.asp)
     \end{enumerate}
 
 \end{document}
