@@ -20,23 +20,16 @@
     % Let's divide the document into sections (i.e. chapters)
     \section{A gentle introduction to credit risk}
 
-    To include in this section
-    \begin{enumerate}
-        \item What is it?
-        \item Give me real life examples
-        \item Why is it relevant and for who?
-        \item Counterparty credit risk
-    \end{enumerate}
-
     % [TODO]
     % - Increasing comp. power, data collection, and regulation as main drivers for credit risk modelling
     % - 
-    As you might have already inferred from the title of this section, the aim here is to give an overview
+    As you might have already inferred from the title, the aim of this section is to give an overview
     of the topic that is at the hearth of this paper: credit risk. In order to so however, rather than jumping 
     straight into formal definitions, which might create difficulties in grasping with the content, the reader 
     will be first provided with real-life examples characterized by the presence of such risk. Moving on, some
     formal definitions will be provided along with a description of the agents that usually take upon this risk 
-    and how they act to assess it and quantify it with the purpose of taking proper actions to mitigate it. Finally, there ..
+    and how they act to assess it and quantify it with the purpose of taking proper actions to finally mitigate it. 
+    Finally, the chapter ends with an introduction to credit risk modelling, as this topic will be  
 
     \subsection[]{Introduction}
             
@@ -45,72 +38,65 @@
     
         Imagine yourself receving a call from one of your friends that you have not heard for quite a while. 
         You can hear from his voice that he is really upset, and apparently, the reason for this is that he has to pay a fine 
-        by the end of the day to avoid an additional charge, but he does not have the money to pay at the moment, 
-        due to huge expenses that he had to cover during that month and the fact that he still has not received his monthly salary. 
+        by the end of the day to avoid an additional charge, but he does not have the money to pay at the moment. 
+        He tells you that the reason for this is that he had to cover fo huge expenses lately and he still has not received his monthly salary. 
         He then ask you, whether you would be kind enough to lend him the money, promising to repay you as soon as he receives his paid.
-        What would you do? Would you lend him the money? What if one of your colleague at work ask you the same thing? Would you do it in this case? 
-        Would it make a difference if it was someone you knew well? And if your colleague ask you funds for a pizza but he does not mention when and 
+        What would you do? Would you lend him the money? What if one of your colleague at work asks you the same thing? Would you do it in this case? 
+        Would it make a difference if it was someone you knew well? And if your colleague ask you to lend him money for a pizza without mentioning you when and 
         how is going to pay you back? 
     
-        Usually, the type of questions that you ask yourself before getting into this type of agreements, which are also a simplified
-        version of what financial istitutions ask themselves before giving any type of credit, are the following: 
+        Usually, the type of questions that you ask yourself before getting into these agreements, which are also a simplified
+        version of what financial istitutions ask themselves before lending, are the following: 
 
-        \begin{itemize}
+        \begin{enumerate}
             \item Who is borrowing?
             \item How much they are borrowing?
             \item When I will get it back?
             \item How much is there for me?
-        \end{itemize}
+        \end{enumerate}
 
         Going back to the last example, imagine your colleague telling you that he will pay you back the week after and in addition, he is willing
         to take you out for lunch. In this case, he is paying you back more than what you lent him. Would you call this \textit{interest rate}? 
-        What if instead he gives you his watch to keep until he pays you back? This feels a much more safer lending, doesn't it? Indeed, the watch
-        in this case is called \textit{security}.
+        What if instead he gives you his watch to keep until he pays you back? Now it feels a much more safer lending. Indeed, the watch
+        in this case is usually called \textit{collateral} (or also \textit{security}).
 
-        The procedure that has been just introduced is usually called "\textbf{credit analysis}", which formally can be defined as the process through
+        The procedure that has been just introduced is usually referred to as "\textbf{credit analysis}", which formally can be defined as the process through
         which the lender elaborates if he believes the counterparty is going to honor its obligations or not. This ultimately determine whether
-        the agent will enter in that contract or not, along with the relative risk associated with it, or more precisely, the \textbf{credit risk}.
+        the agent will enter in that contract, along with the relative risk associated with it, or more precisely, the \textbf{credit risk}.
 
     \subsubsection{Credit risk}
 
-        Formally, credit risk can be defined as:
-        \begin{definition}[(Credit risk)]
-            the risk that a lender has to take into account due to the uncertainty related to the borrower failing to either repaying a loan or meet its obligations.
+        \begin{definition}[(Credit Risk)]
+            the risk that a lender has to take into account due to the uncertainty related to the borrower either failing to repay a loan or to meet its obligations.
         \end{definition}
 
         In simple terms, this definition suggests that the lender should consider the possibility that a borrower will not be able to pay back the principal and the 
-        interest rate according to the initial contractual agreement, he should quantify this probability and based on the result obtained, charge a coupon rate 
-        (i.e. interest rate) to protect against this risk. How is this probability estimated is going to be at the heart of the empirical analysis of this work and 
-        for this reason, the topic is introduced in later chapters. Ultimately, there are at least 3 additional points that is worth mentioning in the context of credit
-        risk: 
+        interest rate according to the initial contractual agreement. He should then quantify this probability and based on the result, charge a coupon rate 
+        (i.e. interest rate) to protect against this risk. The methods to derive the aformentioned probability are part of the broad area of \textbf{Credit Risk Modelling},
+        which will be at the heart of the empirical analysis, and for this reason, it will be introduced later. 
+        
+        Ultimately, there are at least 3 additional points that is worth mentioning in the context of credit risk and that should be considered as a key takeaways from this introductory chapter: 
         
         \begin{enumerate}
-            \item \textbf{Credit risk in every financial transaction}: although it comes naturally to associate this type of risk for transactions that involves banks (e.g. mortgages, loans, credit cards, etc...), there is also presence of credit risk in transactions that occur between the companies and their clients (e.g. paying invoices, insurance coverage, etc..)  
-            \item \textbf{Risk assessment}: before granting new credit, as often it is the case in the business world, the bank undergo an assessment on the borrower that takes into consideration his credit history, the capabilities to repay back, the capital available, the loan's conditions and associated collateral. Such evaluation has the final goal of providing an accurate prior estimate of the credit risk. This will ultimately tell whether the client should get or not the obligations, with an increasing interest rate for those who are perceived as riskier.
-            \item \textbf{Credit risk vs. Market risk}: so far it was assumed the risk associated to the lending being purely driven by the borrower characteristics. Although the latters always have a relevant impact in the assessment, other factors enter in the overall evaluation. Most of them falls under the area of \textit{market risks factors} (such as FX rates, unemployment rates and so on), which are included also in what is known as the CCR (Counterparty Credit Risk) stress testing.
-            \item \textbf{CCR - Stress testing}:  
+            \item \textbf{Credit risk in every financial transaction}: although most of the times it might come natural to associate this type of risk to transactions that occur between a party and a financial istitution (e.g. mortgages, loans, credit cards, etc...), credit risk has a presence also at the company level, for instance, between companies and clients (e.g. paying invoices, insurance coverage, etc..)  
+            \item \textbf{Risk assessment}: before granting new credit, as often it is the case in the business world, the bank undergo an assessment of the borrower that takes into consideration his credit history, the capabilities to repay back, the capital available, the loan's conditions and associated collateral. Such evaluation has the final goal of providing an accurate prior estimate of the credit risk, which will eventually tell whether the client should get or not the obligations, with an increasing interest rate for those who are perceived as riskier. In the case of bonds, this assessment is done by credit-rating agencies that assign a triple-A (i.e \textit{AAA}) for low-risk investments, all the way down to \textit{C} for high-risk investments. Although this process is tied to bonds only, our dataset provides ratings also for loans, perhaps as a result of internal procedures to assess credit risk.
+            \item \textbf{Credit risk vs. other risks}: so far it was assumed that the risk associated to the lending was purely driven by the borrower characteristics. However, in a typical lending transaction, usually other types of risks factor in such as market risks (e.g. economic conditions, FX rates), country-specific risks (e.g. OECD country, emerging-markets country, etc..), operational risk, issuer risk, and so on... To keep things simple, and given the nature of the data for the empirical analysis, although it might represent a far too simplistic assumption, we will stick with it and only deal with a particular type of credit risk: the \textit{CCR (Counterparty Credit Risk)}
         \end{enumerate}
         
+    \subsubsection{CCR - Counterparty Credit Risk}
+        % Complete this section
+        \begin{definition}[(Counterparty Credit Risk)]
+            CCR can be defined as a measure of the \textbf{likelihood} that either one of the parties involved in a transaction \textbf{might default} on its contractual obligation.
+        \end{definition}
 
-        % - how is this probability quantified?
-        % - bullshitta su dove possiamo trovare credit risk e provvedi a fare alcuni esempi
-        % - default vs. credit risk
+        According to the definition of \textit{credit risk} provided above, there is a subtle but fundamental difference between the two type of risk, and in order to make it clear also to the reader, and example on loans is going
+        to be provided. Imagine that a counterparty was able to obtain an incredibly high amount through a loan that was extended for whatever reason from a bank. The latter assessed whether the borrower would be able to 
+        pay back the amount also within the date established with the lending contract. This process is also called "credit risk assessment" and takes into account the possibility that the borrower might not be able to fully repay the lender
+        according to the contractual obligations, but do not exclude that the counterparty might cover for the remaining part in the future either. Hence, the bank here is exposed (in terms of risk) only to the portion of the money lended that
+        believes are at risk. What if instead the banks start considering the chance that this counterparty might default on this loan such that he will never be able to pay back any of the amount received, neither in the present, nor in the future?
+        Here the bank evaluates the risk at the counterparty level also known as "CCR" or "default risk" - the variable we wish to model.
 
-        
 
-    
-
-
-    % Old
-    % The aim of this section is to provide an overview of the core topic of this paper: credit risk.
-    % Being credit risk a vast and broad topic, which might result 
-    % Instead of jumping straight into the relevant definitions and keywords that characterize this world,
-    % the reader will be provided with examples concerning daily activities, with the hope that such provision
-    % serves as a way to make the reader aware of the relevance of this type of risk in one's life.
-
-    % Let me provide you with some examples: imagine yourself receiving a call from one of you colleague in a usual
-    % split 
-    
     \pagebreak
     \section{Basel Regulatory Framework}
 
@@ -183,7 +169,7 @@
 ... (leggere Karolina + Online) -> collegare a counterparty credit risk e a probability of default! -> next chapter!
 
     \pagebreak
-    \section{Credit Risk Empirical Analysis}
+    \section{Credit Risk - Empirical Analysis}
 
     \begin{enumerate}
         \item 
@@ -199,9 +185,9 @@
         \item Finance Unlocked (linK: )
         \item Investopedia - Credit Risk (link:)
         \item Introduction to credit risk modelling (Christian Bluhm)
-        \item Investopedia - Capital tiers (link: https://www.investopedia.com/ask/answers/043015/what-difference-between-tier-1-capital-and-tier-2-capital.asp)
-        \item Investopedia - Capital buffers (link: https://www.investopedia.com/terms/c/capital-buffer.asp)
-        \item Wikipedia - Debt Consolidation (link: https://en.wikipedia.org/wiki/Debt_consolidation)
+        % \item Investopedia - Capital tiers (link: https://www.investopedia.com/ask/answers/043015/what-difference-between-tier-1-capital-and-tier-2-capital.asp)
+        % \item Investopedia - Capital buffers (link: https://www.investopedia.com/terms/c/capital-buffer.asp)
+        % \item Wikipedia - Debt Consolidation (link: https://en.wikipedia.org/wiki/Debt_consolidation)
     \end{enumerate}
 
 \end{document}
