@@ -1,11 +1,30 @@
 \documentclass[a4paper,12pt]{article}
+\usepackage{amsfonts}
+
+
 \begin{document}
 
+    %%%%%%%%%%%%%%%%%%%%%
+    % Settings %
+    %%%%%%%%%%%%%%%%%%%%%
+
+    % Space before-after equations %
+    % \setlength{\abovedisplayskip}{6pt}
+    % \setlength{\belowdisplayskip}{6pt}
+    \setlength{\abovedisplayshortskip}{6pt}
+    \setlength{\belowdisplayshortskip}{24pt}
+    
+    % Space between paragraphs %
+    \setlength\parskip{0.5\baselineskip}
+
+    % New environment for definitions
     \newcounter{definition}[section]
     \newenvironment{definition}[1][]{\refstepcounter{definition}\par\medskip
         \noindent \textbf{Definition #1:} \rmfamily}{\medskip}
     
-    % Some introduction
+    %%%%%%%%%%%%%%%%%%%%%
+    % Document %
+    %%%%%%%%%%%%%%%%%%%%%
     \title{Thesis}
     \author{Daniel Travaglia}
     \date{\today}
@@ -102,27 +121,20 @@
 
     The needs for a more comprehensive and better approach to risk management, particularly for counterparty credit risk,
     has emerged quite significantly after the financial crisis of 2007-2009. Since then, regulators have sharpened their 
-    frameworks and applied more stringent controls to the stability of financial istitutions, focusing also on hyphotetical 
-    scenarios. On this line of reasoning, this section provides an overview of how regulatory requirements in the context of counterparty credit
-    risk have evolved over time, presenting also reasons for which such rules have been introduced in the first place.
+    existing frameworks and applied more stringent controls to the stability of financial istitutions. 
+    On this line of reasoning, this section provides an overview of how regulatory requirements in the context of counterparty credit
+    risk have evolved over time, with a focus on the key regulatory framework in this environment: The Basel Accords. The aim is to make 
+    the reader aware of the reasons to have such framework in place, along with a brief walk-through the history to see why, as of today, 
+    the baking industry has become increasingly regulated, specially for what concern lending.
+    \newline
 
-    In the aftermath of the well-known and aformentioned financial crisis of the period 2007-2009, there has been an unprecedented
-    revision of the global framework regulating the financial sector, culminating in what is known today with the name of \textbf{Basel III} regulatory framework.
-    However, before reaching this result, the banking sector has experienced a relevant number of systemic crisis usually driven by various factors,
+    After the well-known and aformentioned 2007-2009 financial crisis event, there has been an unprecedented
+    revision of the global framework regulating the financial sector, culminating in what is known today as the \textbf{Basel III} regulatory framework.
+    Before reaching this result, the banking sector has experienced a relevant number of systemic crisis usually driven by various factors,
     including the miscalculation of risk represented by inadequate capital levels to carry out their business. Each of this crisis brought some contribution 
     and changes to the previous framework, adding up to the first version, which consisted of 30 pages, more than 1500 pages of guidelines relating to the 
-    supervision of daily banking activities. Although it might seem scary at first, the Basel III framework can actually be divided into 7 key modules that are
-    listed here:
-
-    \begin{enumerate}
-        \item \textbf{Minimum capital requirements}: refers to methodologies for the calculation of operational, market and credit risks
-        \item \textbf{RWA - Risk Weighted Assets}:
-        \item \textbf{Capital buffers}:
-        \item \textbf{Leverage}: 
-        \item \textbf{Liquidity}: refers to the amount of capital hold
-        \item \textbf{Supervision}: refers to the periodical capital assessments and supervisory interventions that financial istitutions agree to undertake
-        \item \textbf{Market discipline}: period disclosure of risk exposures by financial istitutions to enable much more informed decisions
-    \end{enumerate}
+    supervision of daily banking activities. 
+    \newline
 
     Why was the Basel Committee ever needed? In order to answer this question, we have to go back to 1970s, when the Herstatt Bank collapsed and was put under liquidation 
     due to enormous trades on the foreign exchange market that did not go as planned. The license was withdrawn in the 1974, as losses have reached an amount equal to 10 times
@@ -131,50 +143,151 @@
     and cosequently involves also FX and market risk, this event highlighted the necessity to create a central forum for banking supervision concerning matters related also to other type of risks, 
     such as "credit risk". With the objective of enhancing the financial stability and quality of banking supervision, in 1974 multiple central banks gave raise to a centralized committee which later on 
     took the name of "Basel Committee on Banking Supervision". The latter expanded quite significantly and as of now, it includes 45 central banks worldwide.
+    \newline
 
-    The need for a regulatory framework for risk management instead, takes us back to the 70s-80s period, when the surge in debt in the latin american countries combined with the raise of interest rates
+    The need for a regulatory framework for risk management was further strengthen during the 70s-80s period, when the surge in debt in the latin american countries combined with the raise of interest rates
     in US and Europe led the way to a series of critical debt restructuring efforts for many countries worldwide. Hence, the critical needs for a more clear and comprehensive framework to bring overall 
-    stability in the banking system led the way for the Basel committee to issue guidelines on weighted approach to risk management. Such need was satisfied with the release of the Basel 1 framework in 1988, 
-    when for the first time in history, banks were required to weigh the capital they held against the credit risk they took from lending services. 
+    stability in the banking system forced the Basel committee to issue guidelines on weighted approach to risk management. Such need was satisfied with the release of the Basel 1 framework in 1988, 
+    when for the first time in history, banks were required to weigh the capital they held against the credit risk they took. 
     
     \subsection[]{Basel 1}
-    The first regulatory framework released by the Banking Committee was denominated "Basel 1". The latter introduced some relevant changes in the financial system:
+    In 1988, the first regulatory framework, which later took the name of "Basel I", was released by the Basel Committee. 
+    The latter had the objective of setting up common international and shared regulations on capital adequacy supervision, something that then became the core aspect of all the activities that the Committee conduct. 
+    The relevant changes that were applied are summarized in the following points:
     
         \begin{itemize}
-            \item Istitutions provide any type of lending services were required to classify assets into 5 different categories based on the risk they bear: from 0\% for most secured assets (e.g. cash) to 100\% for low-quality assets (e.g. private sector debt). Since then, such assets have been known with the name: "\textbf{RWA}" (risk-weighted assets).
-            \item Keep minimum level of capital against the total RWA. This was initially set at 8\%, equally spread between most absoring assets (e.g. equity, retained earnings) and the rest, with supplementary assets (e.g. financial instruments that are more difficult to liquidate). Such threshold was introduced to ensure that financial istitutions had enough standalone capabilities to absord potential losses resulting from defaulting clients.
+            \item Istitutions that provide any type of lending services were required to classify assets into 5 different categories based on the underlying risk of holding such assets: from 0\% for most secured assets (e.g. cash) to 100\% for low-quality assets (e.g. private sector debt). Since then, "\textbf{RWA}" (risk-weighted assets) have been the keyword to describe this weighted approach towards assets.
+            \item Definition of the so-called \textbf{Minimum Capital Requirement}: minimum ratio of capital to risk-weighted assets (RWA). The threshold was initially set at \textit{8\%}, equally spread between most absoring assets (i.e. \textbf{Tier-1 Capital}: examples are equity and retained earnings) and supplementary assets (\textbf{Tier-2 Capital}: examples are revaluated assets and subordinated debt). The latter includes assets that are more difficult to liquidate, and therefore less secure than the former. This level was introduced to ensure that financial istitutions had enough standalone capabilities to absord potential losses resulting from defaulting clients.
         \end{itemize}
 
-    Despite the major alterations, the first Basel Regulation presented some shortcomings mainly related to the duration of the service, the market risk and, most importantly, the counterparty risk. The complexity 
-    introduced by some financial products (Credit default swaps, Complex derivatives, etc..) was drastically incrementing the risk taken by financial istitutions, a situation that required further 
-    adjustments with the regulation and shined a light on the ever-increasing importance of accurate methodologies to assess exposures to risk. 
+    Despite the major alterations, the first Basel Regulation presented some shortcomings mainly related to the duration of the service, the market risk and, most importantly, the counterparty risk. Some of these issues were
+    considered and partly assessed through amendments (such as the Market Risk Amendment). Nevertheless, the complexity introduced by some financial products (Credit default swaps, Complex derivatives, etc..) was drastically incrementing the risk taken by financial istitutions. 
+    This situation required further adjustments with the regulation and shined a light on the ever-increasing importance of accurate methodologies to assess exposures to risk. 
      
     \subsection[]{Basel 2}
-    Some of the aformentioned and much needed adjustments have been introduced in the second version of the Basel Framework, today known as: \textbf{Basel II}. Major changes are:
+    The proposal for a replacement of the previous accord (i.e. Basel I) came in 1999, and was finally released in 2004 with the name \textbf{Basel II} .
+    This comprised some of the aformentioned and much needed adjustments, and comprised the following 3 pillars:
 
-        \begin{itemize}
-            \item Arrangments of multiple methods to better assess the minimum capital requirements to absorb potential credit losses 
-            \item The introduction of a new capital tier: the \textit{Tier-3 capital}. This was meant to cover also for market risk.
-        \end{itemize}
+        \begin{enumerate}
+            \item \textbf{Minimum capital requirement}: developed and expanded on top of the standardized approach set out in the first approach and introduced a new capital tier that was meant to cover also for market risk (i.e. \textbf{Tier-3})
+            \item \textbf{Market discipline}: effective period disclosure of risk exposures by financial istitutions to enable much more informed decisions
+            \item \textbf{Supervisory review}: provided clear guidances on period assessments of an istitution's capital adequacy and granted intervention powers in case of presence of capital pressure 
+        \end{enumerate}
 
-    Despite the efforts to bring more stability to the financial environment, the paper required substantial time and effort before being released. After this event however, which took place in 2006,
-    most financial istitutions took full advantage of the subprime mortgages - lending money to low credit profile - thank to higher expected returns, but they also started increasing their leverage
-    taking full advantage of the favourable economic conditions after the financial crisis. These events were part of a much broader series of misfunctionality that served as key lessons for the Basel 
-    Committee, to bring substantial modification to the current framework and published the latest version as we know it today: The \textbf{Basel III},
+    Despite the efforts to bring more stability to the financial environment, the accord required substantial time and effort before being ready and released. After the publication,
+    most financial istitutions started taking full advantage of the subprime mortgages - lending money to low credit profile - thanks to their higher expected returns. Moreover, these institutions entered in the financial crisis 
+    with way to much leverage and also took full advantage of the favourable economic conditions afterwards despite the regulatory environment that was set in place with Basel II,
+    These events were part of a much broader series of misfunctionality (e.g. poor governance, bad risk management, combination of excessive credit growth and credit risk mispricing) 
+    that served as key lessons for the Basel Committee to bring substantial updates to the baseline framework. Responding to these risk factors, the Committe agreed to design a reform
+    package to outline new ways of handling credit and liquidity risk.
 
     \subsection[]{Basel 3}
-    The Basel III framework introduces a very large package of reforms that aims at further strengthen and prevent another financial crisis. Instead of listing the reforms brought and applied, we wish
-    to see how significant changes over this version of the framework have brought to the attention the ever-increasing need of being able to assess counterparty credit risk (?)
+    The agreement culminated with the publication in 2010 of what is now referred to as the \textbf{Basel III} framework. This was a very large package which aimed at improving
+    on top of the 3 pillars of the previous accord and extend them to also other areas. The key changes can be summarized in the following points:
+    
+        \begin{enumerate}
+            \item \textbf{Capital conservation buffer}: part of the common equity that, if ever breached, restricts payouts (e.g. dividends) to be used to meet the minimum common equity requirements
+            \item \textbf{New leverage ratio}: based on loss-absorbing capital and total istitution's assets and takes into consideration also off-balance sheet exposures (regardless of RWA)
+            \item \textbf{Liquidity Coverage Ratio (LCR)}: a minimum short-term liquidity ratio to provide banks with enough liquidity to cover for at least 30-days stress period.
+            \item \textbf{Net Stable Funding Ratio (NSFR)}: a minimum long-term liquidity ratio to adress maturity mismatches over the balance sheet
+        \end{enumerate}
 
-... (leggere Karolina + Online) -> collegare a counterparty credit risk e a probability of default! -> next chapter!
+    Despite the introduction of all these new regulations for the financial istitutions, the Basel Committee realized that the approach of "one fits all" is hardly to meet 
+    the expectations outlined in the framwork, and therefore started with a series of reform to condition the requirements on the istitutions' size, complexity and systematic importance.
+    This culminated once again in a series of on-going reform packages that is still happening today and should be published under the name: \textbf{Basel IV}.
+    \newline
 
+    % CONCLUSION -> FROM REGULATION -> TO HIRING IN CREDIT RISK -> RISK MODELLING -> CLOSE THE GAP WITH INFORMATION -> ASYMMETRIC IMPERFECTIONS
+    
     \pagebreak
     \section{Credit Risk - Empirical Analysis}
 
-    \begin{enumerate}
-        \item 
-    \end{enumerate}
+    After an introduction to the theoretical foundations of credit risk and a walk-through the cornerstone events that had a significant impact for the regulation of the environment,
+    it is time to take a more empirical approach and see how can data be put into valuable use in the context of risk exposures towards counterparties' loans granted by a financial istitution.
+    However, before jumping straight into the analysis, an high-level overview of credit risk modelling as to what it is intended within financial istitutions will be provided, along with and the key terminologies in this area
+
+    \subsection[]{Credit risk modelling}
+
+    \subsubsection{Example}
+    The motivation to develop internal credit risk models came, as we so before, from regulamentary requirements, but what was not stressed is the reason why this is such an important point
+    for financial istitution. To better understand this, let us provide a simpliefied, but not too unrealistic example: imagine a bank is asked from a major tech company to provide a very huge
+    loan in the size of \$5B. As already discussed, a credit analyst, who for ease the example we will call Benm will have to go through the request and see whether it is the case to grant or not this loan 
+    based on the information that he is able to gather. 
+    Let us assume that the analyst already knows that the CEO of this company has a great friendship relationship with the CFO of the bank, and, from recent studies, he discoveres that the specific sector 
+    of the company has recently experiences a steady drop in sales and moreover, the bank-internal rating system suggests this company is on its way down to a subinvestment grade (i.e. classified as risky investment). 
+    What should the analyst do at this point? The way to go usually boils down to 2 options at this point:
+
+        \begin{enumerate}
+            \item \textit{Reject} the deal based on the information he has gather on the company and the relative market
+            \item \textit{Accept} the deal BUT, protect the bank against potential losses thanks to \textbf{credit risk management instruments} (such as credit derivatives) and transfer the risk to a third-party in exchange of a fee
+        \end{enumerate}
+
+    Hence, financial istitutions have also a way out: as individuals would do with health insurance, banks can protect themselves from the underlying exposures to risk when lending to particularly risky clients. 
+    In particular, banks had already designed ways to get loan insurance in the past and usually comprises the whole bank's credit risk portfolio, and not only some critical positions. This brings directly to
+    the building block of credit risk modelling within a financial istitution: the \textbf{expected loss}
+
+    \subsubsection{Expected Loss}
+    In order for banks to protect against this risk, they would like to know the \textit{cost} that arises from a particular client (a group of clients in the case of portfolio) 
+    prior to granting the loan, so that they can charge a \textit{premium} on the interest rate accordingly and add up to a reserve (also calles \textit{expected loss reserve}) to cover for potential losses due to defaulting loans.
+    What the bank is really interest here then is to know, \textit{on average}, the potential loss that might occur when lending money to a client. This is also known as \textbf{Expected Loss}, and it is characterized by the following 3 main building blocks of credit risk modelling:
+
+        \begin{enumerate}
+            \item \textbf{Probability of Default (PD)}: the \textit{likelihood} of a default in a defined time-horizon associated to a client. Note however that this is a general definition that may vary depending on the method used to estimate such probability. For instance, under the Basel II IRB framework, the PD per rating rate is defined as the average percentage percentage of obligators that will default over a one-year period, the time-horizon specified in the regulation for each asset class.
+            \item \textbf{Exposure At Default (EAD)}: \textit{estimated outstanding amount} given that a client defaulted
+            \item \textbf{Loss Given Default (LGD)}: \textit{proportion of EAD} that is expected not to be recovered in case of default.
+        \end{enumerate}
+    The model describing the expected loss is defined on top of a probability space ($\Omega,\Phi,\mathcal{P}$), where $\Omega$ consists of the \textit{sample space} defining all the possible events, 
+    $\Phi$ is the \textit{$\sigma$-Algebra} containing all the measurable events of the sample space (such as the information on whether an obligator defaults or not) and lastly, 
+    $\mathcal{P}$, the probability space, which attaches a probability to each measurable event.
+
+    If we declare $\textbf{\textit{D}}_{i}$ as the event that the client '\textit{i}' defaults within a time-horizon and $\mathcal{P}(D_{i})$ as the proability associated to this event, then 
+    the loss related to the obligator can be then defined as:
     
+    \begin{equation}
+        L_{i}=\iota*EAD_{i}*LGD_{i} \quad\mathrm{with}\quad  \iota = \mathrm{\textbf{1}}_{D_{i}}, \quad\mathcal{P}(D_{i}) = PD_{i}
+    \end{equation}
+    where $\iota$ is equal to the \textit{indicator function} of the underlying event \textit{D}. The variable takes value 1 when the 
+    event occur (i.e. default) and 0 when it does not occur. Note that this is a Bernoulli R.V., and as such, the expectation is equal to the probability of the event to occur. In other words, it is equal to the \textit{Probability of Default (PD)}. 
+    Before laying down the formula of \textit{Expected Loss}, another clarification should be provided:
+    
+    \begin{enumerate}
+        \item To keep things simple, we will assume that the 3 constituents of the loss formula (i.e. PD, EAD, LGD) are independent among each other. Despite being a more than questionable statement and far from being true in general, this setting will allow us to state the most simple formula for the \textit{Expected loss}.
+        \item To be able to simply define the expected loss over the whole portfolio of obligations, we also assume the joint distribution to be composed of independent and identically distributed R.V., each describing the expected loss of a specific obligator (\textit{i}).
+    \end{enumerate}
+
+    The formula of the expected loss of an obligator now comes very naturally as it is simply the expectation of the loss function defined above:
+
+        \begin{equation}
+            EL_{i}=\mathcal{P}(D_{i})*EAD_{i}*LGD_{i}
+        \end{equation}
+    
+    where $\mathcal{P}(D_{i})$ represents the expectation of $\iota$.
+
+    At this point, it is possible to identify the expected loss of a portfolio as the proportion of obligators that might default over a time-horizon,
+    multiplied by the expected portion of the total expected exposures that is assumed not to be recovered if the default event occurs. More formally:
+
+        \begin{equation}
+            EL_{P}=\sum_{i=1}^{N} \mathcal{P}(D_{i})*EAD_{i}*LGD_{i}
+        \end{equation}
+
+    \subsubsection{Unexpected Loss}
+    Note that the formula to calculate the expected losses aims at measuring the \textbf{expected} proportion of losses due to defaulting obligators based on historical default experiences, but 
+    it does not consider the \textbf{unexpected} losses that might come up as a deviation from the average experienced losses of the past. The capital held to sustain
+    losses should then consider both, and for the sake of completeness of this chapter, the formula will be provided here:
+
+        \begin{equation}
+            UL_{P}=\sum_{i=1}^{N} \sigma_{i}*\varphi_{i}
+        \end{equation}
+        where $\sigma_{i}$ is the individual standard deviation of credit losses for the obligator \textit{i}, while $\varphi_{i}$ indicates the correlation between 
+        the credit losses of individual \textit{i} and all the other obligators in the portfolio.
+
+    \subsubsection{Probability of Default}
+    
+    
+    \pagebreak
+    \subsection[]{Empirical work}
+    
+
     \pagebreak
     \section{Blockchain and asymmetric information}
 
@@ -188,6 +301,9 @@
         % \item Investopedia - Capital tiers (link: https://www.investopedia.com/ask/answers/043015/what-difference-between-tier-1-capital-and-tier-2-capital.asp)
         % \item Investopedia - Capital buffers (link: https://www.investopedia.com/terms/c/capital-buffer.asp)
         % \item Wikipedia - Debt Consolidation (link: https://en.wikipedia.org/wiki/Debt_consolidation)
+        % \item Basel - History of Basel regulatory framework (link: https://www.bis.org/bcbs/history.htm?m=3%7C14%7C573%7C76)
+        % \item Tier-2 Capital Definition https://www.investopedia.com/terms/t/tier2capital.asp
+
     \end{enumerate}
 
 \end{document}
