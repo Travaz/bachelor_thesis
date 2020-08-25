@@ -43,12 +43,12 @@
     % - Increasing comp. power, data collection, and regulation as main drivers for credit risk modelling
     % - 
     As you might have already inferred from the title, the aim of this section is to give an overview
-    of the topic that is at the hearth of this paper: credit risk. In order to so however, rather than jumping 
-    straight into formal definitions, which might create difficulties in grasping with the content, the reader 
+    of the topic that is at the hearth of this paper: credit risk. R
+    ather than jumping straight into formal definitions, which might create difficulties in grasping with the content, the reader 
     will be first provided with real-life examples characterized by the presence of such risk. Moving on, some
-    formal definitions will be provided along with a description of the agents that usually take upon this risk 
+    formal definitions will be given along with a description of the agents that usually take upon this risk 
     and how they act to assess it and quantify it with the purpose of taking proper actions to finally mitigate it. 
-    Finally, the chapter ends with an introduction to credit risk modelling, as this topic will be  
+    Finally, the chapter ends with an introduction to credit risk modelling, a topic that will we will refere extensively later in the analysis.
 
     \subsection[]{Introduction}
             
@@ -105,15 +105,22 @@
     \subsubsection{CCR - Counterparty Credit Risk}
         % Complete this section
         \begin{definition}[(Counterparty Credit Risk)]
-            CCR can be defined as a measure of the \textbf{likelihood} that either one of the parties involved in a transaction \textbf{might default} on its contractual obligation.
+            CCR can be defined as a measure of the \textbf{likelihood} that the counterparty to a transaction \textbf{might default} before meeting the contractual obligation.
         \end{definition}
 
         According to the definition of \textit{credit risk} provided above, there is a subtle but fundamental difference between the two type of risk, and in order to make it clear also to the reader, and example on loans is going
         to be provided. Imagine that a counterparty was able to obtain an incredibly high amount through a loan that was extended for whatever reason from a bank. The latter assessed whether the borrower would be able to 
-        pay back the amount also within the date established with the lending contract. This process is also called "credit risk assessment" and takes into account the possibility that the borrower might not be able to fully repay the lender
+        pay back the amount also within the date established by the lending contract. This process is also called "credit risk assessment" and takes into account the possibility that the borrower might not be able to fully repay the lender
         according to the contractual obligations, but do not exclude that the counterparty might cover for the remaining part in the future either. Hence, the bank here is exposed (in terms of risk) only to the portion of the money lended that
-        believes are at risk. What if instead the banks start considering the chance that this counterparty might default on this loan such that he will never be able to pay back any of the amount received, neither in the present, nor in the future?
-        Here the bank evaluates the risk at the counterparty level also known as "CCR" or "default risk" - the variable we wish to model.
+        believes are at risk. 
+        
+        On the other hand, what if the banks start considering the chance that this counterparty might default on this loan such that he will never be able to pay back any of the amount received, neither in the present, nor in the future?
+        In this case the bank not only evaluates the risk associated with the loan, but it also has to deal with the risk associated to the counterparty itself. If such event happens, and the pool of transactions with the counterparty has a positive
+        economic value, the result would be an economic loss for the lender. 
+
+        A typical transaction with the presence of CCR is usually characterized by bilateral risk of loss: either one of the party involved in the transaction might default. 
+        Bilateral exposures usually factors in the uncertainty related to market movements, as part of the value of the transaction is driven by the underlying market value.
+        Analyzing a portfolio of loans, we will only deal with unilateral exposures: the lending bank is the only one party to be exposed to the risk of the obgligator to default.
 
 
     \pagebreak
@@ -244,9 +251,9 @@
     the loss related to the obligator can be then defined as:
     
     \begin{equation}
-        L_{i}=\iota*EAD_{i}*LGD_{i} \quad\mathrm{with}\quad  \iota = \mathrm{\textbf{1}}_{D_{i}}, \quad\mathcal{P}(D_{i}) = PD_{i}
+        L_{i}=I*EAD_{i}*LGD_{i} \quad\mathrm{with}\quad  I = \mathrm{\textbf{1}}_{D_{i}}, \quad\mathcal{P}(D_{i}) = PD_{i}
     \end{equation}
-    where $\iota$ is equal to the \textit{indicator function} of the underlying event \textit{D}. The variable takes value 1 when the 
+    where $I$ is equal to the \textit{indicator function} of the underlying event \textit{D}. The variable takes value 1 when the 
     event occur (i.e. default) and 0 when it does not occur. Note that this is a Bernoulli R.V., and as such, the expectation is equal to the probability of the event to occur. In other words, it is equal to the \textit{Probability of Default (PD)}. 
     Before laying down the formula of \textit{Expected Loss}, another clarification should be provided:
     
@@ -258,16 +265,16 @@
     The formula of the expected loss of an obligator now comes very naturally as it is simply the expectation of the loss function defined above:
 
         \begin{equation}
-            EL_{i}=\mathcal{P}(D_{i})*EAD_{i}*LGD_{i}
+            E[L_{i}]=\mathcal{P}(D_{i})*EAD_{i}*LGD_{i}
         \end{equation}
     
-    where $\mathcal{P}(D_{i})$ represents the expectation of $\iota$.
+    where $\mathcal{P}(D_{i})$ represents the expectation of $I$.
 
     At this point, it is possible to identify the expected loss of a portfolio as the proportion of obligators that might default over a time-horizon,
     multiplied by the expected portion of the total expected exposures that is assumed not to be recovered if the default event occurs. More formally:
 
         \begin{equation}
-            EL_{P}=\sum_{i=1}^{N} \mathcal{P}(D_{i})*EAD_{i}*LGD_{i}
+            E[L_{P}]=\sum_{i=1}^{N} \mathcal{P}(D_{i})*EAD_{i}*LGD_{i}
         \end{equation}
 
     \subsubsection{Unexpected Loss}
@@ -281,12 +288,38 @@
         where $\sigma_{i}$ is the individual standard deviation of credit losses for the obligator \textit{i}, while $\varphi_{i}$ indicates the correlation between 
         the credit losses of individual \textit{i} and all the other obligators in the portfolio.
 
+    After this brief parenthesis, let us go back to one of the key costituents of 
+    expected loss, the probability of default.
+
     \subsubsection{Probability of Default}
-    
+
+    The probability of default will be the subject of our empirical analysis where, 
+    given a pool of counterparties and associated loans, we wish to estimate how
+    likely a loan is to default based on the information provided.
+
+    Predicting the probability of default is in itself a very challenging task as 
+    often it envolves very complicated models that need to assign a probability
+    to each of the client in the portfolio. Banks have set up multiple department 
+    (usually under the division "risk methodology") that are in charge of 
+    estimating the 3 main constituents of the expected loss as a way to keep the situation
+    monitored and intervene when neeeded. Obviously, great importance is also given to the PD.
+
+    In principle, there are many methods to estimate the probability of default,
+    but we will list only 3 different approaches and, for the scope of our analysis
+    we will implement the last two listed here:
+
+        \begin{enumerate}
+            \item \textit{Calibration from the \textbf{market data}}: calibrating default probabilities on market data is not an easy task, and for this reason, there are already ad-hoc models (such as the KVM-model) that take care of this. Another option is based on credit spreads of product bearing credit risk.
+            \item \textit{Calibration from the \textbf{ratings}}: default probabilities are linked with ratings (e.g. AAA,AA,\dots, BBB, \dots) which can be provided either by internal-based methodologies or by external rating agencies (e.g. Moody's, S\&P, Fitch, \dots)
+            \item \textit{\textbf{Model-based} calibration}: lastly, it is possible to construct a model based on the available information on the obligator and the obligation and try to predict whether the counterparty will likely default or not on that loan. Note that the dependent variable here is treated as a binary variable (i.e. taking values 0 and 1 only) and for this reason we are actually approsimating a probability towards either 0 or 1 for non-default and default events respectively. 
+        \end{enumerate}
+        The dataset on top of which the empirical analysis will be conducted provides a sample of counterparties and relative loans, along with some information on both. In particular,
+        as a rating is attached to each loan, we might want to calibrate the probability of default on each loan and use that estimate as a benchmark to see how the model perform on the data.
     
     \pagebreak
     \subsection[]{Empirical work}
     
+    Introduction to the empirical work
 
     \pagebreak
     \section{Blockchain and asymmetric information}
@@ -294,16 +327,18 @@
     \pagebreak
     \section{References}
 
-    \begin{enumerate}
-        \item Finance Unlocked (linK: )
-        \item Investopedia - Credit Risk (link:)
-        \item Introduction to credit risk modelling (Christian Bluhm)
-        % \item Investopedia - Capital tiers (link: https://www.investopedia.com/ask/answers/043015/what-difference-between-tier-1-capital-and-tier-2-capital.asp)
-        % \item Investopedia - Capital buffers (link: https://www.investopedia.com/terms/c/capital-buffer.asp)
-        % \item Wikipedia - Debt Consolidation (link: https://en.wikipedia.org/wiki/Debt_consolidation)
-        % \item Basel - History of Basel regulatory framework (link: https://www.bis.org/bcbs/history.htm?m=3%7C14%7C573%7C76)
-        % \item Tier-2 Capital Definition https://www.investopedia.com/terms/t/tier2capital.asp
+    % \begin{enumerate}
+    %     % \item Finance Unlocked (linK: )
+    %     % \item Investopedia - Credit Risk (link:)
+    %     % \item Introduction to credit risk modelling (Christian Bluhm)
+    %     % \item Investopedia - Capital tiers (link: https://www.investopedia.com/ask/answers/043015/what-difference-between-tier-1-capital-and-tier-2-capital.asp)
+    %     % \item Investopedia - Capital buffers (link: https://www.investopedia.com/terms/c/capital-buffer.asp)
+    %     % \item Wikipedia - Debt Consolidation (link: https://en.wikipedia.org/wiki/Debt_consolidation)
+    %     % \item Basel - History of Basel regulatory framework (link: https://www.bis.org/bcbs/history.htm?m=3%7C14%7C573%7C76)
+    %     % \item Tier-2 Capital Definition https://www.investopedia.com/terms/t/tier2capital.asp
+    %     % \item Basel-Regulation - CCR (link: https://www.bis.org/basel_framework/chapter/CRE/50.htm?inforce=20191215#:~:text=Counterparty%20credit%20risk%20(CCR)%20is,at%20the%20time%20of%20default)
+            % \item Affordability - Mortages (link: https://www.clearscore.com/learn/mortgages/how-much-can-i-borrow-a-guide-to-mortgage-affordability-assessments/)
 
-    \end{enumerate}
+    % \end{enumerate}
 
 \end{document}
