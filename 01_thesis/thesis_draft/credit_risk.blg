@@ -1,0 +1,13 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[1] Config.pm:307> INFO - Logfile is 'credit_risk.blg'
+[118] biber-MSWIN32:322> INFO - === 
+[146] Biber.pm:415> INFO - Reading 'credit_risk.bcf'
+[324] Biber.pm:943> INFO - Found 8 citekeys in bib section 0
+[349] Biber.pm:4256> INFO - Processing section 0
+[350] Utils.pm:75> INFO - Globbing data source 'citation.bib'
+[363] Utils.pm:91> INFO - Globbed data source 'citation.bib' to citation.bib
+[386] Biber.pm:4455> INFO - Looking for bibtex format file 'citation.bib' for section 0
+[392] bibtex.pm:1653> INFO - LaTeX decoding ...
+[444] bibtex.pm:1471> INFO - Found BibTeX data source 'citation.bib'
+[523] Utils.pm:320> ERROR - BibTeX subsystem: C:\Users\trava\AppData\Local\Temp\biber_tmp_IUd5\citation.bib_7608.utf8, line 29, syntax error: found "author", expected ","
+[523] Biber.pm:132> INFO - ERRORS: 1
