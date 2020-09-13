@@ -111,20 +111,23 @@ INPUT c:/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT c:/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_final/section-title/title.tex
 INPUT c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_final/section-title/title.tex
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmss17.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
-INPUT c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_final/./section-title/figures/uzh_logo_e_pos.pdf
-INPUT ./section-title/figures/uzh_logo_e_pos.pdf
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
+INPUT c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_final/./section-title/figures/bocconi_logo.eps
+INPUT ./section-title/figures/bocconi_logo.eps
+INPUT ./section-title/figures/bocconi_logo.eps
+INPUT ./section-title/figures/bocconi_logo-eps-converted-to.pdf
+INPUT ./section-title/figures/bocconi_logo-eps-converted-to.pdf
+INPUT ./section-title/figures/bocconi_logo.eps
+INPUT ./section-title/figures/bocconi_logo-eps-converted-to.pdf
+INPUT ./section-title/figures/bocconi_logo-eps-converted-to.pdf
 OUTPUT c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_final/thesis.pdf
-INPUT ./section-title/figures/uzh_logo_e_pos.pdf
+INPUT ./section-title/figures/bocconi_logo-eps-converted-to.pdf
 INPUT c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_final/section-acknowledgements/acknowledgements.tex
 INPUT c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_final/section-acknowledgements/acknowledgements.tex
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_final/section-abstract/zusammenfassung.tex
 INPUT c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_final/section-abstract/zusammenfassung.tex
 INPUT c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_final/section-abstract/abstract.tex
@@ -135,15 +138,12 @@ INPUT c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/II
 INPUT c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_final/./section-introduction/figures/uzhlichthof.jpg
 INPUT ./section-introduction/figures/uzhlichthof.jpg
 INPUT ./section-introduction/figures/uzhlichthof.jpg
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_final/./section-introduction/figures/uzhlichthof.jpg
 INPUT ./section-introduction/figures/uzhlichthof.jpg
 INPUT c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_final/section-chapter1/chapter1.tex
 INPUT c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_final/section-chapter1/chapter1.tex
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-INPUT c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_final/./section-chapter1/figures/uzh_logo_e_pos.pdf
-INPUT ./section-chapter1/figures/uzh_logo_e_pos.pdf
-INPUT ./section-chapter1/figures/uzh_logo_e_pos.pdf
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_final/section-chapter2/chapter2.tex
 INPUT c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_final/section-chapter2/chapter2.tex
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
@@ -187,9 +187,9 @@ INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
-INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
+INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb
+INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb

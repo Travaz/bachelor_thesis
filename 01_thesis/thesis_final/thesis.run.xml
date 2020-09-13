@@ -44,42 +44,43 @@
   <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>credit_risk.bcf</file>
+      <file>thesis.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>credit_risk.bbl</file>
+      <file>thesis.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
+      <file>apa.dbx</file>
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
       <file>standard.bbx</file>
-      <file>alphabetic.bbx</file>
-      <file>alphabetic.cbx</file>
+      <file>apa.bbx</file>
+      <file>authoryear.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
+      <file>american.lbx</file>
+      <file>american-apa.lbx</file>
+      <file>english-apa.lbx</file>
     </requires>
   </internal>
   <external package="biblatex" priority="5" active="1">
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>credit_risk</infile>
+      <infile>thesis</infile>
     </cmdline>
     <input>
-      <file>credit_risk.bcf</file>
+      <file>thesis.bcf</file>
     </input>
     <output>
-      <file>credit_risk.bbl</file>
+      <file>thesis.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>credit_risk.bbl</file>
+      <file>thesis.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>credit_risk.bcf</file>
-    </requires>
-    <requires type="editable">
-      <file>./section-references/citation</file>
+      <file>thesis.bcf</file>
     </requires>
   </external>
 </requests>

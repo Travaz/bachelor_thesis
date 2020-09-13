@@ -1,0 +1,82 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+The style file: apalike.bst
+Database file #1: section-references/thesisbib.bib
+I was expecting a `,' or a `}'---line 69 of file section-references/thesisbib.bib
+ :     
+ :     author ={J. Chen},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 85 of file section-references/thesisbib.bib
+ :     
+ :     author = {BIS},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 117 of file section-references/thesisbib.bib
+ :     
+ :     author ={O. Labarre},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 133 of file section-references/thesisbib.bib
+ :     
+ :     author ={J. Chen},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 149 of file section-references/thesisbib.bib
+ :     
+ :     author ={S. Chatterjee},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 167 of file section-references/thesisbib.bib
+ :     
+ :     author ={BIS},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 239 of file section-references/thesisbib.bib
+ :     
+ :     year                ={2017}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You've used 3 entries,
+            1935 wiz_defined-function locations,
+            486 strings with 4107 characters,
+and the built_in function-call counts, 887 in all, are:
+= -- 80
+> -- 27
+< -- 3
++ -- 8
+- -- 8
+* -- 58
+:= -- 167
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 16
+chr.to.int$ -- 3
+cite$ -- 3
+duplicate$ -- 42
+empty$ -- 70
+format.name$ -- 13
+if$ -- 172
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 6
+newline$ -- 18
+num.names$ -- 9
+pop$ -- 24
+preamble$ -- 1
+purify$ -- 19
+quote$ -- 0
+skip$ -- 31
+stack$ -- 0
+substring$ -- 36
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 12
+warning$ -- 0
+while$ -- 6
+width$ -- 0
+write$ -- 39
+(There were 7 error messages)

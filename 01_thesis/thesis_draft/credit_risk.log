@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.8)  7 SEP 2020 08:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.8)  13 SEP 2020 22:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -30,6 +30,24 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+) (c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (c:/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
 ) (c:/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
  (c:/texlive/2019/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
@@ -44,9 +62,6 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks15
 ) (c:/texlive/2019/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ) (c:/texlive/2019/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -62,7 +77,7 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 ) (c:/texlive/2019/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
-\@linkdim=\dimen135
+\@linkdim=\dimen137
 \Hy@linkcounter=\count175
 \Hy@pagecounter=\count176
  (c:/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
@@ -89,15 +104,15 @@ Package hyperref Info: Bookmarks ON on input line 4800.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5159.
-\XeTeXLinkMargin=\dimen136
+\XeTeXLinkMargin=\dimen138
  (c:/texlive/2019/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (c:/texlive/2019/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count180
-\Field@Width=\dimen137
-\Fld@charsize=\dimen138
+\Field@Width=\dimen139
+\Fld@charsize=\dimen140
 Package hyperref Info: Hyper figures OFF on input line 6430.
 Package hyperref Info: Link nesting OFF on input line 6435.
 Package hyperref Info: Hyper index ON on input line 6438.
@@ -131,246 +146,114 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
 \Hy@SectionHShift=\skip49
-) (c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
- (c:/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count186
-) (c:/texlive/2019/texmf-dist/tex/latex/logreq/logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count187
- (c:/texlive/2019/texmf-dist/tex/latex/logreq/logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (c:/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count186
+\float@exts=\toks16
+\float@box=\box45
+\@float@everytoks=\toks17
+\@floatcapt=\box46
+) (c:/texlive/2019/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
+ (c:/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (c:/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count187
+) (c:/texlive/2019/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2020/01/13 v3.5 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count188
+\FV@InFile=\read2
+\FV@TabBox=\box47
+\c@FancyVerbLine=\count189
+\FV@StepNumber=\count190
+\FV@OutFile=\write3
+) (c:/texlive/2019/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
+) (c:/texlive/2019/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count191
+\output=\toks18
+\linenoprevgraf=\count192
+\linenumbersep=\dimen141
+\linenumberwidth=\dimen142
+\c@linenumber=\count193
+\c@pagewiselinenumber=\count194
+\c@LN@truepage=\count195
+\c@internallinenumber=\count196
+\c@internallinenumbers=\count197
+\quotelinenumbersep=\dimen143
+\bframerule=\dimen144
+\bframesep=\dimen145
+\bframebox=\box48
+LaTeX Info: Redefining \\ on input line 3056.
 )
-\c@tabx@nest=\count188
-\c@listtotal=\count189
-\c@listcount=\count190
-\c@liststart=\count191
-\c@liststop=\count192
-\c@citecount=\count193
-\c@citetotal=\count194
-\c@multicitecount=\count195
-\c@multicitetotal=\count196
-\c@instcount=\count197
-\c@maxnames=\count198
-\c@minnames=\count199
-\c@maxitems=\count266
-\c@minitems=\count267
-\c@citecounter=\count268
-\c@maxcitecounter=\count269
-\c@savedcitecounter=\count270
-\c@uniquelist=\count271
-\c@uniquename=\count272
-\c@refsection=\count273
-\c@refsegment=\count274
-\c@maxextratitle=\count275
-\c@maxextratitleyear=\count276
-\c@maxextraname=\count277
-\c@maxextradate=\count278
-\c@maxextraalpha=\count279
-\c@abbrvpenalty=\count280
-\c@highnamepenalty=\count281
-\c@lownamepenalty=\count282
-\c@maxparens=\count283
-\c@parenlevel=\count284
-\blx@tempcnta=\count285
-\blx@tempcntb=\count286
-\blx@tempcntc=\count287
-\blx@maxsection=\count288
-\blx@maxsegment@0=\count289
-\blx@notetype=\count290
-\blx@parenlevel@text=\count291
-\blx@parenlevel@foot=\count292
-\blx@sectionciteorder@0=\count293
-\blx@entrysetcounter=\count294
-\labelnumberwidth=\skip50
-\labelalphawidth=\skip51
-\biblabelsep=\skip52
-\bibitemsep=\skip53
-\bibnamesep=\skip54
-\bibinitsep=\skip55
-\bibparsep=\skip56
-\bibhang=\skip57
-\blx@bcfin=\read2
-\blx@bcfout=\write3
-\blx@langwohyphens=\language6
-\c@mincomprange=\count295
-\c@maxcomprange=\count296
-\c@mincompwidth=\count297
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
- (c:/texlive/2019/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'alphabetic.dbx' not found.
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count298
-\c@savedafterword=\count299
-\c@annotator=\count300
-\c@savedannotator=\count301
-\c@author=\count302
-\c@savedauthor=\count303
-\c@bookauthor=\count304
-\c@savedbookauthor=\count305
-\c@commentator=\count306
-\c@savedcommentator=\count307
-\c@editor=\count308
-\c@savededitor=\count309
-\c@editora=\count310
-\c@savededitora=\count311
-\c@editorb=\count312
-\c@savededitorb=\count313
-\c@editorc=\count314
-\c@savededitorc=\count315
-\c@foreword=\count316
-\c@savedforeword=\count317
-\c@holder=\count318
-\c@savedholder=\count319
-\c@introduction=\count320
-\c@savedintroduction=\count321
-\c@namea=\count322
-\c@savednamea=\count323
-\c@nameb=\count324
-\c@savednameb=\count325
-\c@namec=\count326
-\c@savednamec=\count327
-\c@translator=\count328
-\c@savedtranslator=\count329
-\c@shortauthor=\count330
-\c@savedshortauthor=\count331
-\c@shorteditor=\count332
-\c@savedshorteditor=\count333
-\c@labelname=\count334
-\c@savedlabelname=\count335
-\c@institution=\count336
-\c@savedinstitution=\count337
-\c@lista=\count338
-\c@savedlista=\count339
-\c@listb=\count340
-\c@savedlistb=\count341
-\c@listc=\count342
-\c@savedlistc=\count343
-\c@listd=\count344
-\c@savedlistd=\count345
-\c@liste=\count346
-\c@savedliste=\count347
-\c@listf=\count348
-\c@savedlistf=\count349
-\c@location=\count350
-\c@savedlocation=\count351
-\c@organization=\count352
-\c@savedorganization=\count353
-\c@origlocation=\count354
-\c@savedoriglocation=\count355
-\c@origpublisher=\count356
-\c@savedorigpublisher=\count357
-\c@publisher=\count358
-\c@savedpublisher=\count359
-\c@language=\count360
-\c@savedlanguage=\count361
-\c@origlanguage=\count362
-\c@savedoriglanguage=\count363
-\c@pageref=\count364
-\c@savedpageref=\count365
-\shorthandwidth=\skip58
-\shortjournalwidth=\skip59
-\shortserieswidth=\skip60
-\shorttitlewidth=\skip61
-\shortauthorwidth=\skip62
-\shorteditorwidth=\skip63
-\locallabelnumberwidth=\skip64
-\locallabelalphawidth=\skip65
-\localshorthandwidth=\skip66
-\localshortjournalwidth=\skip67
-\localshortserieswidth=\skip68
-\localshorttitlewidth=\skip69
-\localshortauthorwidth=\skip70
-\localshorteditorwidth=\skip71
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
- (c:/texlive/2019/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
- (c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count366
-\c@textcitetotal=\count367
-\c@textcitemaxnames=\count368
-\c@biburlbigbreakpenalty=\count369
-\c@biburlbreakpenalty=\count370
-\c@biburlnumpenalty=\count371
-\c@biburlucpenalty=\count372
-\c@biburllcpenalty=\count373
-\biburlbigskip=\muskip17
-\biburlnumskip=\muskip18
-\biburlucskip=\muskip19
-\biburllcskip=\muskip20
-\c@smartand=\count374
-)
-Package biblatex Info: Trying to load bibliography style 'alphabetic'...
-Package biblatex Info: ... file 'alphabetic.bbx' found.
- (c:/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/alphabetic.bbx
-File: alphabetic.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
- (c:/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count375
-\c@bbx:relatedtotal=\count376
-))
-Package biblatex Info: Trying to load citation style 'alphabetic'...
-Package biblatex Info: ... file 'alphabetic.cbx' found.
- (c:/texlive/2019/texmf-dist/tex/latex/biblatex/cbx/alphabetic.cbx
-File: alphabetic.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
- (c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.cfg
-File: biblatex.cfg 
-))
-\@quotelevel=\count377
-\@quotereset=\count378
- (c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+\c@FV@TrueTabGroupLevel=\count198
+\c@FV@TrueTabCounter=\count199
+\FV@TabBox@Group=\box49
+\FV@TmpLength=\skip50
+\c@FV@HighlightLinesStart=\count266
+\c@FV@HighlightLinesStop=\count267
+\FV@LoopCount=\count268
+\FV@NCharsBox=\box50
+\FV@BreakIndent=\dimen146
+\FV@BreakIndentNChars=\count269
+\FV@BreakSymbolSepLeft=\dimen147
+\FV@BreakSymbolSepLeftNChars=\count270
+\FV@BreakSymbolSepRight=\dimen148
+\FV@BreakSymbolSepRightNChars=\count271
+\FV@BreakSymbolIndentLeft=\dimen149
+\FV@BreakSymbolIndentLeftNChars=\count272
+\FV@BreakSymbolIndentRight=\dimen150
+\FV@BreakSymbolIndentRightNChars=\count273
+\c@FancyVerbLineBreakLast=\count274
+\FV@LineBox=\box51
+\FV@LineIndentBox=\box52
+\FV@LineWidth=\dimen151
+) (c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count379
-\l__pdf_internal_box=\box45
+\l__kernel_color_stack_int=\count275
+\l__pdf_internal_box=\box53
 ) (c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_draft/credit_risk.aux)
 \openout1 = `credit_risk.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-\AtBeginShipoutBox=\box46
-Package hyperref Info: Link coloring OFF on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+ (c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count276
+\scratchdimen=\dimen152
+\scratchbox=\box54
+\nofMPsegments=\count277
+\nofMParguments=\count278
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count279
+\MPscratchDim=\dimen153
+\MPnumerator=\count280
+\makeMPintoPDFobject=\count281
+\everyMPtoPDFconversion=\toks20
+) (c:/texlive/2019/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+\AtBeginShipoutBox=\box55
+Package hyperref Info: Link coloring OFF on input line 30.
  (c:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (c:/texlive/2019/texmf-dist/tex/latex/refcount/refcount.sty
@@ -378,180 +261,314 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (c:/texlive/2019/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count380
+\c@section@level=\count282
 )
-LaTeX Info: Redefining \ref on input line 17.
-LaTeX Info: Redefining \pageref on input line 17.
-LaTeX Info: Redefining \nameref on input line 17.
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
+LaTeX Info: Redefining \nameref on input line 30.
  (c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_draft/credit_risk.out) (c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_draft/credit_risk.out)
 \@outlinefile=\write4
 \openout4 = `credit_risk.out'.
 
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
- (c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
-)
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `credit_risk.bcf'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'credit_risk.bbl' found.
- (c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_draft/credit_risk.bbl)
-Package biblatex Info: Reference section=0 on input line 17.
-Package biblatex Info: Reference segment=0 on input line 17.
-\c@definition=\count381
-\c@example=\count382
-LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
+\c@definition=\count283
+\c@example=\count284
+LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
  (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
  (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: Citation 'creditanalysis' on page 2 undefined on input line 69.
-
-[2]
-Overfull \hbox (3.88202pt too wide) in paragraph at lines 107--112
+{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Overfull \hbox (3.88202pt too wide) in paragraph at lines 116--121
 []\OT1/cmr/m/n/12 Considering the last ex-am-ple, imag-ine in-stead that your col-league promises
  []
 
+[3] [4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 178--184
 
-LaTeX Warning: Citation 'creditanalysis' on page 3 undefined on input line 113.
-
-
-LaTeX Warning: Citation 'creditriskprinciple' on page 3 undefined on input line 116.
-
-
-LaTeX Warning: Citation 'investopediacreditrisk' on page 3 undefined on input line 124.
-
-
-LaTeX Warning: Citation 'bluhm2016introduction' on page 3 undefined on input line 132.
-
-[3]
-
-LaTeX Warning: Citation 'investopediacreditrisk' on page 4 undefined on input line 135.
-
-[4]
-
-LaTeX Warning: Citation 'basel_CCR' on page 5 undefined on input line 149.
-
-
-LaTeX Warning: Citation 'basel_CCR' on page 5 undefined on input line 166.
-
-[5]
-
-LaTeX Warning: Citation 'baselhistory_fu' on page 6 undefined on input line 180.
-
-
-LaTeX Warning: Citation 'baselhistory_bis' on page 6 undefined on input line 180.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 175--181
-
- []
-
-
-LaTeX Warning: Citation 'investopediabaselaccord' on page 6 undefined on input line 191.
-
-
-Overfull \hbox (0.34993pt too wide) in paragraph at lines 184--192
-\OT1/cmr/m/n/12 work in this en-vi-ron-ment: \OT1/cmr/bx/n/12 The Basel Ac-cords \OT1/cmr/m/n/12 [[]] 
  []
 
 [6]
-Overfull \hbox (7.0806pt too wide) in paragraph at lines 226--232
+Overfull \hbox (7.0806pt too wide) in paragraph at lines 229--239
 \OT1/cmr/m/n/12 The need for a reg-u-la-tory frame-work for risk man-age-ment was fur-ther strength-
  []
 
-[7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 297--304
+[7] [8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 304--311
 
  []
 
-[9] [10]
+[10] [11] [12] [13] [14] [15] [16]
+<./images/cp_dataset_info.jpg, id=278, 274.02374pt x 125.46875pt>
+File: ./images/cp_dataset_info.jpg Graphic file (type jpg)
+<use ./images/cp_dataset_info.jpg>
+Package pdftex.def Info: ./images/cp_dataset_info.jpg  used on input line 500.
+(pdftex.def)             Requested size: 390.0pt x 178.58612pt.
+ [17]
+<./images/cp_dataset_head.jpg, id=286, 452.69125pt x 97.02916pt>
+File: ./images/cp_dataset_head.jpg Graphic file (type jpg)
+<use ./images/cp_dataset_head.jpg>
+Package pdftex.def Info: ./images/cp_dataset_head.jpg  used on input line 513.
+(pdftex.def)             Requested size: 390.0pt x 83.59148pt.
+<./images/cp_dataset_describe.jpg, id=287, 374.73334pt x 149.89333pt>
+File: ./images/cp_dataset_describe.jpg Graphic file (type jpg)
+<use ./images/cp_dataset_describe.jpg>
+Package pdftex.def Info: ./images/cp_dataset_describe.jpg  used on input line 525.
+(pdftex.def)             Requested size: 390.0pt x 156.0043pt.
+ [18pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 
-LaTeX Warning: Citation 'bluhm2016introduction' on page 11 undefined on input line 319.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.529 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.529 
+       <./images/cp_dataset_info.jpg> <./images/cp_dataset_head.jpg>]
+<./images/cp_univariate.png, id=294, 1276.01718pt x 671.50874pt>
+File: ./images/cp_univariate.png Graphic file (type png)
+<use ./images/cp_univariate.png>
+Package pdftex.def Info: ./images/cp_univariate.png  used on input line 539.
+(pdftex.def)             Requested size: 390.0pt x 205.23509pt.
+ [19pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 
-LaTeX Warning: Citation 'bluhm2016introduction' on page 11 undefined on input line 322.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.548             \item L
+                         ower age should be the reason for having shorter em...pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.548             \item L
+                         ower age should be the reason for having shorter em... <./images/cp_dataset_describe.jpg> <./images/cp_univariate.png>]
+<./images/loans_dataset_info.jpg, id=306, 245.91875pt x 116.435pt>
+File: ./images/loans_dataset_info.jpg Graphic file (type jpg)
+<use ./images/loans_dataset_info.jpg>
+Package pdftex.def Info: ./images/loans_dataset_info.jpg  used on input line 569.
+(pdftex.def)             Requested size: 390.0pt x 184.66171pt.
+ [20]
+<./images/loans_dataset_head.jpg, id=317, 370.38374pt x 101.37875pt>
+File: ./images/loans_dataset_head.jpg Graphic file (type jpg)
+<use ./images/loans_dataset_head.jpg>
+Package pdftex.def Info: ./images/loans_dataset_head.jpg  used on input line 582.
+(pdftex.def)             Requested size: 390.0pt x 106.74937pt.
+<./images/loans_dataset_describe.jpg, id=318, 290.41833pt x 149.55875pt>
+File: ./images/loans_dataset_describe.jpg Graphic file (type jpg)
+<use ./images/loans_dataset_describe.jpg>
+Package pdftex.def Info: ./images/loans_dataset_describe.jpg  used on input line 594.
+(pdftex.def)             Requested size: 390.0pt x 200.84811pt.
+ [21pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 
-Overfull \hbox (85.2752pt too wide) in paragraph at lines 318--323
-\OT1/cmr/m/n/12 much due to reg-u-la-tory re-quire-ments. How-ever, as high-lighted in [[]],
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.598 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.598 
+       <./images/loans_dataset_info.jpg> <./images/loans_dataset_head.jpg>]
+<./images/loans_univariate.png, id=325, 1277.52281pt x 670.75594pt>
+File: ./images/loans_univariate.png Graphic file (type png)
+<use ./images/loans_univariate.png>
+Package pdftex.def Info: ./images/loans_univariate.png  used on input line 608.
+(pdftex.def)             Requested size: 390.0pt x 204.7696pt.
+ [22pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.616             \item T
+                         he loan amount is mostly concentrated around 5-10K,...pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.616             \item T
+                         he loan amount is mostly concentrated around 5-10K,... <./images/loans_dataset_describe.jpg> <./images/loans_univariate.png>]
+<./images/affordability.png, id=334, 1394.20876pt x 818.05624pt>
+File: ./images/affordability.png Graphic file (type png)
+<use ./images/affordability.png>
+Package pdftex.def Info: ./images/affordability.png  used on input line 640.
+(pdftex.def)             Requested size: 390.0pt x 228.8295pt.
+ [23] [24pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.672 
+       <./images/affordability.png>]
+<./images/correlation_matrix.png, id=349, 899.36pt x 819.06pt>
+File: ./images/correlation_matrix.png Graphic file (type png)
+<use ./images/correlation_matrix.png>
+Package pdftex.def Info: ./images/correlation_matrix.png  used on input line 680.
+(pdftex.def)             Requested size: 390.0pt x 355.17592pt.
+ [25pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.694         T
+               he ratio "loans over income" is correlated with both "loan am... <./images/correlation_matrix.png>]
+<./images/loans_ct_grades_credit_history.jpg, id=358, 264.99pt x 67.58583pt>
+File: ./images/loans_ct_grades_credit_history.jpg Graphic file (type jpg)
+<use ./images/loans_ct_grades_credit_history.jpg>
+Package pdftex.def Info: ./images/loans_ct_grades_credit_history.jpg  used on input line 729.
+(pdftex.def)             Requested size: 390.0pt x 99.47679pt.
+ [26]
+<./images/loans_status_credit_history.png, id=365, 1446.40375pt x 827.09pt>
+File: ./images/loans_status_credit_history.png Graphic file (type png)
+<use ./images/loans_status_credit_history.png>
+Package pdftex.def Info: ./images/loans_status_credit_history.png  used on input line 743.
+(pdftex.def)             Requested size: 390.0pt x 223.01439pt.
+ [27pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.753 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.753 
+       <./images/loans_ct_grades_credit_history.jpg> <./images/loans_status_credit_history.png>]
+<./images/loans_intents_credit_history_int_rate.jpg, id=374, 436.63126pt x 62.2325pt>
+File: ./images/loans_intents_credit_history_int_rate.jpg Graphic file (type jpg)
+<use ./images/loans_intents_credit_history_int_rate.jpg>
+Package pdftex.def Info: ./images/loans_intents_credit_history_int_rate.jpg  used on input line 762.
+(pdftex.def)             Requested size: 390.0pt x 55.58615pt.
+<./images/loans_affordability_status_intents.png, id=375, 1433.355pt x 827.09pt>
+File: ./images/loans_affordability_status_intents.png Graphic file (type png)
+<use ./images/loans_affordability_status_intents.png>
+Package pdftex.def Info: ./images/loans_affordability_status_intents.png  used on input line 775.
+(pdftex.def)             Requested size: 390.0pt x 225.03365pt.
+ [28pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.783 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.783 
+       <./images/loans_intents_credit_history_int_rate.jpg> <./images/loans_affordability_status_intents.png>]
+<./images/loans_pd_calibration_hist.png, id=384, 1432.35126pt x 827.09pt>
+File: ./images/loans_pd_calibration_hist.png Graphic file (type png)
+<use ./images/loans_pd_calibration_hist.png>
+Package pdftex.def Info: ./images/loans_pd_calibration_hist.png  used on input line 796.
+(pdftex.def)             Requested size: 390.0pt x 225.19771pt.
+<./images/loans_affordability_status_credit_history.png, id=386, 1433.355pt x 827.09pt>
+File: ./images/loans_affordability_status_credit_history.png Graphic file (type png)
+<use ./images/loans_affordability_status_credit_history.png>
+Package pdftex.def Info: ./images/loans_affordability_status_credit_history.png  used on input line 809.
+(pdftex.def)             Requested size: 390.0pt x 225.03365pt.
+ [29pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.813 
+       <./images/loans_pd_calibration_hist.png>]
+<./images/loans_affordability_status_ownership.png, id=394, 1433.355pt x 827.09pt>
+File: ./images/loans_affordability_status_ownership.png Graphic file (type png)
+<use ./images/loans_affordability_status_ownership.png>
+Package pdftex.def Info: ./images/loans_affordability_status_ownership.png  used on input line 831.
+(pdftex.def)             Requested size: 390.0pt x 225.03365pt.
+ [30pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.835 
+       <./images/loans_affordability_status_credit_history.png>]
+<./images/loans_affordability_status_age.png, id=402, 1433.355pt x 827.09pt>
+File: ./images/loans_affordability_status_age.png Graphic file (type png)
+<use ./images/loans_affordability_status_age.png>
+Package pdftex.def Info: ./images/loans_affordability_status_age.png  used on input line 852.
+(pdftex.def)             Requested size: 390.0pt x 225.03365pt.
+ [31pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.856 
+       <./images/loans_affordability_status_ownership.png>] [32pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.882             \item \textbf
+                               {Dealing with unbalancedness: SMOTE algorithm} <./images/loans_affordability_status_age.png>]
+Overfull \hbox (5.82965pt too wide) in paragraph at lines 889--896
+\OT1/cmr/m/n/12 based on a method called \OT1/cmr/bx/n/12 equal-frequency dis-cretiza-tion \OT1/cmr/m/n/12 [Char-faoui, 2020].
  []
 
 
-LaTeX Warning: Citation 'investopediacreditderivative' on page 11 undefined on input line 338.
+Overfull \hbox (7.01115pt too wide) in paragraph at lines 900--901
+[]\OT1/cmr/m/n/12 When com-bined with cat-e-gor-i-cal en-cod-ings, chances are that this method
+ []
 
+[33]
+Overfull \hbox (3.43713pt too wide) in paragraph at lines 925--932
+\OT1/cmr/m/n/12 there are much more ob-ser-va-tions for non-defaulting loans (i.e. \OT1/cmr/m/it/12 loan-status=0\OT1/cmr/m/n/12 )
+ []
 
-Overfull \hbox (99.67671pt too wide) in paragraph at lines 338--339
-\OT1/cmr/m/n/12 and trans-fer the risk to a third-party in ex-change of a fee. [[]] 
+[34]
+<./images/model_features_RFE.png, id=435, 1433.355pt x 827.09pt>
+File: ./images/model_features_RFE.png Graphic file (type png)
+<use ./images/model_features_RFE.png>
+Package pdftex.def Info: ./images/model_features_RFE.png  used on input line 955.
+(pdftex.def)             Requested size: 390.0pt x 225.03365pt.
+ [35] [36pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.977 
+       <./images/model_features_RFE.png>] [37pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1045 
+       ] [38pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1079 
+       ] [39pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1103 
+       ] [40] [41]
+Overfull \hbox (4.28749pt too wide) in paragraph at lines 1198--1199
+[]\OT1/cmtt/m/n/12 [Chawla, Bowyer, Hall, Kegelmeyer, 2002] \OT1/cmr/m/n/12 N. Chawla, K. Bowyer,
  []
 
 
-LaTeX Warning: Citation 'bluhm2016introduction' on page 11 undefined on input line 347.
+Overfull \hbox (9.9008pt too wide) in paragraph at lines 1201--1202
+[]\OT1/cmtt/m/n/12 [Fox, John, and Georges Monette] \OT1/cmr/m/n/12 Fox, John, and G. Mon-ette (1992)
+ []
 
-[11]
-
-LaTeX Warning: Citation 'bankofenglandcreditrisk' on page 12 undefined on input line 359.
-
-[12]
-
-LaTeX Warning: Citation 'bankofenglandcreditrisk' on page 13 undefined on input line 379.
-
-
-LaTeX Warning: Citation 'bluhm2016introduction' on page 13 undefined on input line 379.
-
-[13]
-
-LaTeX Warning: Citation 'bluhm2016introduction' on page 14 undefined on input line 405.
-
-[14] [15] [16] [17]
-
-LaTeX Warning: Empty bibliography on input line 501.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 504.
-[18]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 504.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1212.
+[42]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1212.
  (c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_draft/credit_risk.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 504.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 504.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1212.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1212.
 Package rerunfilecheck Info: File `credit_risk.out' has not changed.
-(rerunfilecheck)             Checksum: 231E2F351FD2D39A12A944CA7F2A580B;1391.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                credit_risk
-(biblatex)                and rerun LaTeX afterwards.
-
-Package logreq Info: Writing requests to 'credit_risk.run.xml'.
-\openout1 = `credit_risk.run.xml'.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 504.
+(rerunfilecheck)             Checksum: E1E77B5AFAE8D678817AD836FF4F435A;3120.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1212.
  ) 
 Here is how much of TeX's memory you used:
- 11615 strings out of 483142
- 208798 string characters out of 5965353
- 843062 words of memory out of 5000000
- 26443 multiletter control sequences out of 15000+600000
- 542144 words of font info for 61 fonts, out of 8000000 for 9000
+ 7159 strings out of 483142
+ 115616 string characters out of 5965353
+ 373417 words of memory out of 5000000
+ 21875 multiletter control sequences out of 15000+600000
+ 542313 words of font info for 62 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 35i,6n,39p,1174b,1257s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on "c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_draft/credit_risk.pdf" (18 pages, 164713 bytes).
+ 34i,7n,29p,2331b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on "c:/Users/trava/OneDrive - Università Commerciale Luigi Bocconi/Bocconi/III Year/II Semester/30022 - Thesis/bachelor_thesis/01_thesis/thesis_draft/credit_risk.pdf" (42 pages, 1298024 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
- 238 compressed objects within 3 object streams
- 78 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 610 PDF objects out of 1000 (max. 8388607)
+ 517 compressed objects within 6 object streams
+ 163 named destinations out of 1000 (max. 500000)
+ 408 words of extra memory for PDF output out of 10000 (max. 10000000)
 

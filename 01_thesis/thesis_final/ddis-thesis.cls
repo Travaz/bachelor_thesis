@@ -164,6 +164,16 @@
 \def\fnum@figure{{\bfseries\fontfamily{pfr}\selectfont \figurename\nobreakspace\thefigure}}
 \def\fnum@table{{\bfseries\fontfamily{pfr}\selectfont \tablename\nobreakspace\thetable}}
 
+% New commands added by me 
+\newcounter{definition}[section]
+\newenvironment{definition}[1][]{\refstepcounter{definition}\par\medskip
+    \noindent \textbf{Definition #1:} \rmfamily}{\medskip}
+
+% New environment for examples
+\newcounter{example}[section]
+\newenvironment{example}[1][]{\refstepcounter{example}\par\medskip
+    \noindent \textbf{Example~\theexample. #1} \rmfamily}{\medskip}
+
 % Original name = Contents
 \renewcommand{\contentsname}{Table of Contents}
 % Original name = Bibliography
